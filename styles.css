@@ -1,0 +1,37 @@
+section .container {
+    width: 50%;
+}
+
+#divButtons {
+    margin: 1.4em;
+}
+
+#title {
+    margin: 1.4em;
+}
+
+#exampleFormControlTextarea1 {
+    pointer-events: none;
+    touch-action: none;
+}
+
+.corner-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    /* Espaço opcional para afastar a imagem da borda */
+
+    width: 300px;
+}
+
+#imagemFundo{
+    background-image: url("./img/south-park-bus-stop.jpg");
+    /* Outras propriedades de estilo para ajustar a imagem de fundo */
+    background-size: cover; /* Faz a imagem ocupar todo o espaço do elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    height: 800px; /* Defina a altura do elemento para exibir a imagem */
+    color: white; /* Define a cor do texto para contrastar com a imagem */
+    padding: 20px; /* Adiciona algum espaçamento ao conteúdo */
+    text-align: center; /* Centraliza o texto no meio do elemento */
+}
